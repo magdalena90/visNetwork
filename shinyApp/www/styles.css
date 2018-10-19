@@ -1,0 +1,42 @@
+
+h2 { text-align: center }
+
+.col-sm-4 {
+  background-color: #333333;
+  margin: 25px -10px 0 10px;
+}
+
+.well {
+  background: transparent;
+  border: None;
+  color: white;
+}
+
+.well label, .well span {
+  color: white;
+  font-weight: 400;
+}
+
+input[type='radio']:after, input[type='checkbox']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 2px;
+    left: 2px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='checkbox']:after { border-radius: 0 }
+
+input[type='radio']:checked:after, input[type='checkbox']:checked:after {
+  background: transparent;
+  border: None;
+}
+
+.shiny-input-container { padding-top: 10px }
+
+#submit { margin-top: 20px }
